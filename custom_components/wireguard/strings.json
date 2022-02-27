@@ -1,0 +1,22 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "data": {
+          "private_key": "[%key:common::config_flow::data::private_key%]",
+          "address": "[%key:common::config_flow::data::address%]",
+          "listen_port": "[%key:common::config_flow::data::listen_port%]",
+          "peer_public_key": "[%key:common::config_flow::data::peer_public_key%]",
+          "peer_allowed_ips": "[%key:common::config_flow::data::peer_allowed_ips%]",
+          "peer_endpoint": "[%key:common::config_flow::data::peer_endpoint%]"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "[%key:common::config_flow::error::cannot_connect%]"
+    },
+    "abort": {
+      "already_configured": "[%key:common::config_flow::abort::already_configured_device%]"
+    }
+  }
+}

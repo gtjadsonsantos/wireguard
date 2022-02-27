@@ -1,0 +1,13 @@
+{
+  "domain": "wireguard",
+  "name": "Wireguard",
+  "documentation": "https://github.com/jadson179/wireguard",
+  "issue_tracker": "https://github.com/jadson179/wireguard/issues",
+  "version": "v1.0.0",
+  "codeowners": [
+    "@jadson179"
+  ],
+  "requirements": [],
+  "config_flow": true,
+  "iot_class": "local_push"
+}

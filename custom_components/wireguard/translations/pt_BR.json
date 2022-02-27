@@ -1,0 +1,24 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Wireguard",
+        "description": "O WireGuard é um novo protocolo de VPN de código aberto que busca simplificar o processo de criptografia de dados.",
+        "data": {
+          "privatekey": "Chave Privada",
+          "address": "Endereço",
+          "listen_port": "Porta de escuta",
+          "peer_public_key": "Chave Pública do Peer",
+          "peer_allowed_ips": "IPs Permitidos",
+          "peer_endpoint": "Ponto de Entrada do Peer"
+        }
+      },
+      "error": {
+      },
+      "abort": {
+        "single_instance_allowed": "Apenas uma instância é permitida.",
+        "already_configured": "Apenas uma única instância de um dispositivo é permitida."
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{ 
+    "name": "wireguard",
+    "render_readme": "true",
+    "iot_class": ["Local Push"],
+    "version": "2021.2.2"
+}
